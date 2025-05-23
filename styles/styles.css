@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+background-color: #ffffff;
+width: 100%;
+}
+/* Inicio header*/
+header{
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    height: 16vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: sticky;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.logo--home{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.header--navbar{
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-ulist{
+    display: flex;
+    list-style-type: none;
+    font-size: 1em;
+}
+.navbar-ulist a{
+    transition: color 0.3s ease;
+}
+.navbar-ulist a:hover{
+    color: #808080;
+}
+.navbar-items a{
+    padding: 1em;
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+}
+.container--login{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.button-login{
+    background-color: #ffffff;
+    height: 3em;
+    width: 6em;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.header-lenguages{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+.header-lenguages img{
+    width: 2em;
+}
+.header-lenguages p{
+    font-size: 1em;
+    font-weight: 600;
+}
+/* Fin Header*/
+
+/* Inicio Main*/ 
+.main{
+    width: 100%;
+    padding-top: 2em;
+}
+/* Hero */
+.section-hero{
+    display: flex;
+    padding: 2rem 3rem;
+    width: 100%;
+    height: auto;
+}
+
+.info-container{
+    width: 40%;
+    padding: 2em;
+}
+.hero-h1{
+    color: #2f1c6a;
+    font-size: 2.25em;
+    word-spacing: 5px;
+}
+.p-section_hero{
+    color:#2f1c6a;
+    font-size: 1.25em;
+    font-weight:700;
+}
+.span-72{
+    color: #673de6;
+}
+.imagen-hero{
+    width: 60%;
+    height: auto;
+}
+.imagen-hero img{
+    width: 100%;
+    height: auto;
+}
+.hero-list{
+    list-style: none;
+    color: #2f1c6a;
+    padding: 1em;
+}
+.hero-list li{
+    display: flex;
+    font-size: 1em;
+    padding: 5px;
+}
+.bi-check-lg{
+    color: #00b090;
+    padding-right: 10px;
+}
+.price-hero{
+    padding: 1em;
+}
+.coin{
+    color: #2f1c6a;
+    font-size: 1.25em;
+}
+.bigprice-hero{
+    font-size: 3em;
+    color: #2f1c6a;
+    font-weight: 600;
+}
+.mounth{
+    font-size: 20px;
+    color: #2f1c6a;
+}
+.three-mounth_free{
+    padding: 5px;
+}
+.three-mounth_free p{
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #2f1c6a;
+    padding-left: 8px;
+}
+.buttons{
+    padding: 10px;
+}
+.button-left{
+    background-color: #673de6;
+    font-size: 1em;
+    width: 185px;
+    height: 48px;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 0 transparent;
+    padding: 12px 48px;
+    margin-right: 12px;
+}
+.button-right{
+    background-color:#e2dbfc;
+    font-size: 1em;
+    width: 185px;
+    height: 48px;
+    color: #2f1c6a;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 0 transparent;
+    padding: 12px 48px;
+    margin-right: 12px;
+}
+.warranty{
+    padding: 5px;
+}
+.warranty span{
+    color: #2f1c6a;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bi-shield-check{
+    color: rgb(0, 0, 0);
+}
+/*-- Fin Hero -- */
+
+/* -- Inicio Cards -- */
+.section-cards{
+    width: 100%;
+    background-color: #1f1346;
+    color: white;
+    padding: 3em 5.35em;
+}
+.text-container_migration{
+    text-align: center;
+    padding: 1rem;
+}
+.text-container_migration h2{
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+.text-container_migration p{
+    font-size: 1rem;
+    word-spacing: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    padding: 1.25rem 1.25rem;
+    width: 100%;
+    height: auto;
+}
+.card--container{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2rem;
+    width: 22rem;
+    height: auto;
+    background-color: #2f1c6a;
+}
+.card-icon--container{
+    background-color: #673de6;
+    width: 2.50em;
+    text-align: center;
+    padding: 0.37em;
+    border-radius: 0.31em;
+    margin: 0.62em;
+}
+.tittle--card{
+    margin-top: 1em;
+    font-size: 1.12em;
+    font-weight: 600;
+}
+.description-card{
+    margin-top: 1em;
+    font-size: 1em;
+}
+/*Fin seccion tarjetas*/
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #f4f5ff;
+    padding: 2rem 1rem;
+    align-items: center;
+}
+.container-logo_socialmedia{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+.logo-modification{
+    margin: 0.3em;
+    width: 30px;
+    height: 30px;
+    color: #2f1c6a;
+    background-color: #f4f5ff;
+}
+
+.container-payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+.payments{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 50em;
+}
+
+.card--pay{
+    width: 12em;
+    height: 3em;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.andmore{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #673de6;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+.terms span{
+    display: flex;
+}
+
+.terms span p{
+    padding: 5px;
+    font-size: 14px;
+    color: #673de6;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.container-payment{
+    display: flex;
+    flex-direction: column;
+}
+
+}
